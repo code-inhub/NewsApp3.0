@@ -48,17 +48,28 @@ npm run start
 
 ## Screenshots
 
+You can login by entering demo Id and password provided above.
+
+
+
 ![Screenshot (2)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/51189c34-227b-4802-b74a-6136a4b40aa1)
+
 
 You can create a new account and can set your preferences and categories.
 
+
+
 ![Screenshot (3)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/31cab9f1-a782-4784-8edf-bc9734a20b7b)
+
+
 
 ![Screenshot (4)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/cf10e667-4dee-43c9-9ee0-87213c0795c2)
 
 
 ![Screenshot (5)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/311784ed-0c84-49f1-a8d0-df7d9d71b5b3)
 
+
+You can view your bookmarks by clicking on the bookmark button on the top right corner.
 
 ![Screenshot (6)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/e845cfd4-d6c5-4a96-89cf-46d840288e5c)
 
