@@ -43,8 +43,9 @@ To deploy the project locally, run:
 ```bash
 npm run start
 ```
-
+```
 To make the project live you can use this repository `https://github.com/code-inhub/NewsApp3.0Fontend ` as frontend and  `https://github.com/code-inhub/NewsApp3.0Backend` as backend.
+```
 
 
 ## Screenshots
