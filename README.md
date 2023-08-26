@@ -32,20 +32,21 @@ NewsWave is a MERN (MongoDB, Express, React, Node.js) application that offers a 
 1. Clone the repository: `https://github.com/code-inhub/NewsApp3.0`
 2. Here you will find two files one contains code for frontend and one for backend.
 3. For deploying frontend navigate to the frontend part: `cd NewsApp`
-3. For deploying backend navigate to the backend part: `cd server`
-4. Install client dependencies: `npm install`
+4. For deploying backend navigate to the backend part: `cd server`
+5. Install client dependencies: `npm install`
 
-5. Install server dependencies for both : `npm install`
+6. Install server dependencies for both : `npm install`
 ## Deployment
 
-To deploy the project locally, run:
 
+To make the project live you can use this repository `https://github.com/code-inhub/NewsApp3.0Fontend ` as frontend and  `https://github.com/code-inhub/NewsApp3.0Backend` as backend.
+
+To deploy the project locally, run:
 ```bash
 npm run start
+
 ```
-```
-To make the project live you can use this repository `https://github.com/code-inhub/NewsApp3.0Fontend ` as frontend and  `https://github.com/code-inhub/NewsApp3.0Backend` as backend.
-```
+
 
 
 ## Screenshots
