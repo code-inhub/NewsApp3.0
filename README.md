@@ -40,10 +40,11 @@ npm run start
 
 
 ## Screenshots
-![App Screenshot](image-1.png)
 
-<!-- ![App Screenshot](image-2.png) -->
-![Alt text](<Screenshot (2).png>)
-## Screenshots
+![Screenshot (2)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/51189c34-227b-4802-b74a-6136a4b40aa1)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![Screenshot (3)](https://github.com/code-inhub/NewsApp3.0/assets/95998892/31cab9f1-a782-4784-8edf-bc9734a20b7b)
+
+
+
