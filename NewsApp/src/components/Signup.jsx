@@ -52,6 +52,8 @@ function Signup() {
       categories: selectedCategories,
     };
 
+    
+
     try {
       const url = 'http://localhost:8000';
       const response = await axios.post(`${url}/addUser`, user);

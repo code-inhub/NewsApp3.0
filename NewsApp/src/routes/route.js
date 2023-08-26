@@ -4,6 +4,7 @@ const url = 'http://localhost:8000';
 
 export const CheckLogin = async ({email,password}) => {
     try{
+      console.log({email,password});
        const result = await axios.post(`${url}/login`,{email,password})
        console.log(result.data);
         return result.data ;
