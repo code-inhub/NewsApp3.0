@@ -40,5 +40,4 @@ npm run start
 
 
 ## Screenshots
-
-![Alt text](image-1.png)
+![App Screenshot](image-1.png)
