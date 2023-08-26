@@ -41,3 +41,5 @@ npm run start
 
 ## Screenshots
 ![App Screenshot](image-1.png)
+
+![App Screenshot](image-2.png)
