@@ -55,12 +55,16 @@ function Signup() {
     try {
       const url = 'http://localhost:8000';
       const response = await axios.post(`${url}/addUser`, user);
+      if(response.data ==="User already exists") {
+        alert('User already exists');
+        
+      }
       console.log('User added successfully:', response.data);
 
       setEmail('');
       setPassword('');
       setCheckPassword('');
-      setSelectedCategories(['General', 'India']);
+      setSelectedCategories(['General']);
     } catch (error) {
       console.error('Error adding user:', error);
     }

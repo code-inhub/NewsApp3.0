@@ -87,14 +87,23 @@ const getdata = async (_id) => {
 
              try{
                 const {email,password,categories} = req.body;
-                const user = new userSchema({
-                  email,
-                  password,
-                  categories
-                })
-                await user.save();
-                console.log(user)
-                res.status(200).json(user);
+                const check = await userSchema.findOne({email:email});
+                console.log(check);
+                if(check!==null){
+                  return res.status(200).json("User already exists");
+                }
+                
+                else{
+
+                  const user = new userSchema({
+                    email,
+                    password,
+                    categories
+                  })
+                  await user.save();
+                  console.log(user)
+                  res.status(200).json(user);
+                }
               
              }
               catch(error){
@@ -107,8 +116,8 @@ const getdata = async (_id) => {
         route.post("/login",async (req,res)=>{
              try{
               const check= await userSchema.findOne({email:req.body.email});
-              
-              if(check.password==req.body.password){
+              console.log(check);
+              if(check!==null &&check.password==req.body.password){
                 res.status(200).json({data:"success", category:check.categories});
               }
               else{
