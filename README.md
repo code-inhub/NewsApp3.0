@@ -42,9 +42,8 @@ npm run start
 ## Screenshots
 ![App Screenshot](image-1.png)
 
-![App Screenshot](image-2.png)
-
-
+<!-- ![App Screenshot](image-2.png) -->
+![Alt text](<Screenshot (2).png>)
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
