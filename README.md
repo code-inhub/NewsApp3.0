@@ -35,3 +35,10 @@ To deploy the project locally, run:
 
 ```bash
 npm run start
+```
+
+
+
+## Screenshots
+
+![Alt text](image-1.png)
